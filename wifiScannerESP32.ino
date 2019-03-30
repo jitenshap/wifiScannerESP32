@@ -88,7 +88,7 @@ String scanAndMakeJSON()
 
 void loop() 
 {
-  Serial.println(scanAndmakeJSON());
+  Serial.println(scanAndMakeJSON());
   delay(10000);
   Serial.println();
   Serial.println();
