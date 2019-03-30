@@ -11,7 +11,7 @@ void setup()
   WiFi.mode(WIFI_AP_STA);
 }
 
-String scanAndmakeJSON()
+String scanAndMakeJSON()
 {
   int lenSTAs = WiFi.scanNetworks();
   int staLabel[3];
